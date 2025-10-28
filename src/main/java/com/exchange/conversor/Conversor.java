@@ -72,9 +72,6 @@ public class Conversor {
 
                 System.out.println("Erro: " + e.getMessage());
             }
-        } else if (!opcao.equals("5")) {
-            
-            System.out.println("Digite um valor");
         }
     }
 }
