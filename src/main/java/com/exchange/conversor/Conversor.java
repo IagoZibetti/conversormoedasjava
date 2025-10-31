@@ -37,7 +37,17 @@ public class Conversor {
                 System.out.println("");
                 codigoPar = "BRL/USD";
             }
-            case "5" -> System.out.println("Finalizando");
+            case "5" -> {
+                System.out.println("Você escolheu Euro para Real Brasileiro");
+                System.out.println("");
+                codigoPar = "EUR/BRL";
+            }
+            case "6" -> {
+                System.out.println("Você escolheu Real Brasileiro para Euro");
+                System.out.println("");
+                codigoPar = "BRL/EUR";
+                
+            case "7" -> System.out.println("Finalizando");
             default -> System.out.println("Opção inválida!");
         }
         
