@@ -17,7 +17,9 @@ public class Principal {
        		System.out.println("2 - Peso Argentino para Dólar");
        		System.out.println("3 - Dólar para Real Brasileiro");
         	System.out.println("4 - Real Brasileiro para Dólar");
-        	System.out.println("5 - Sair");
+			System.out.println("5 - Euro para Real Brasileiro");
+			System.out.println("6 - Real Brasileiro para Euro");
+        	System.out.println("7 - Sair");
 			System.out.println("");
 			System.out.println("#####################################");
 
